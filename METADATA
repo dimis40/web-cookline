@@ -1,23 +1,32 @@
 {
-  "name": "Wine Friends",
-  "platform_features": {
-    "social_plugins": [
-      "like",
-      "activity",
-      "recommendations",
-      "comments"
-    ]
-  },
+  "title": "Cookline",
+  "platform_features": [
+    {
+      "feature_group": "graph_api"
+    }
+  ],
   "platforms": [
-    "web"
+    {
+      "name": "html"
+    },
+    {
+      "name": "nodejs"
+    }
   ],
-  "sdks": {
-    "javascript": "671604"
-  },
+  "sdks": [
+    {
+      "name": "javascript",
+      "version": "671604"
+    }
+  ],
   "screenshots": [
-    "screenshots/sample_wine_friends_1.png"
+    {
+      "url": "screenshots/sample_web_cookline_1.png"
+    }
   ],
-  "tutorial": "",
-  "featured": 1,
-  "deprecated": 0
+  "tutorial": {
+    "url": "https://github.com/fbsamples/web-cookline/blob/master/README.md#installing"
+  },
+  "featured": false,
+  "deprecated": false
 }
