@@ -1,0 +1,23 @@
+{
+  "name": "Wine Friends",
+  "platform_features": {
+    "social_plugins": [
+      "like",
+      "activity",
+      "recommendations",
+      "comments"
+    ]
+  },
+  "platforms": [
+    "web"
+  ],
+  "sdks": {
+    "javascript": "671604"
+  },
+  "screenshots": [
+    "screenshots/sample_wine_friends_1.png"
+  ],
+  "tutorial": "",
+  "featured": 1,
+  "deprecated": 0
+}
