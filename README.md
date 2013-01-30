@@ -14,34 +14,6 @@ The application requires the following environment variables:
     APP_DOMAIN=<fb_app_domain>
     APP_NS=<fb_app_open_graph_namespace>
 
-For example, the canonical instance of the application uses:
-
-    APP_ID=294113397324835
-    APP_DOMAIN=https://cookline.herokuapp.com
-    APP_NS=cookline
-
-(You will have to use different values for all three of these properties to suit your own app's configuration)
-
-You set these variables in the .env file of a local install, or on heroku through the use of the following command:
-
-    heroku config:add APP_ID=<fb_app_id>
-
-etc
-
-Tested and runs against the Heroku cedar stack, as per http://devcenter.heroku.com/articles/nodejs
-
-The application requires the following environment variables:
-
-    APP_ID=<fb_app_id>
-    APP_DOMAIN=<fb_app_domain>
-    APP_NS=<fb_app_open_graph_namespace>
-
-For example, the canonical instance of the application uses:
-
-    APP_ID=294113397324835
-    APP_DOMAIN=https://cookline.herokuapp.com
-    APP_NS=cookline
-
 (You will have to use different values for all three of these properties to suit your own app's configuration)
 
 You set these variables in the .env file of a local install, or on heroku through the use of the following command:
