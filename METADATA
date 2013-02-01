@@ -21,12 +21,10 @@
   ],
   "screenshots": [
     {
-      "url": "screenshots/sample_web_cookline_1.png"
+      "path": "screenshots/sample_web_cookline_1.png"
     }
   ],
-  "tutorial": {
-    "url": "https://github.com/fbsamples/web-cookline/blob/master/README.md#installing"
-  },
+  "tutorial": "https://github.com/fbsamples/web-cookline/blob/master/README.md#installing",
   "featured": false,
   "deprecated": false
 }
